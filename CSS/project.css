@@ -17,12 +17,13 @@ header h2 {
     margin: 0;
     font-size: 24px;
     color: #f4b42a;
+    font-weight: lighter;
 }
 header nav {
     float: right;
 }
 header nav ul{
-    list-style: none;
+    list-style:none;
     margin: 0;
     padding: 0;
 }
@@ -50,6 +51,7 @@ header nav ul li a:hover {
     }
     .introduction h2 {
         color: #f4b42a;
+        font-weight: lighter;
     }
     .content {
         padding: 20px 0;
@@ -71,6 +73,7 @@ header nav ul li a:hover {
     }
     .content .column h3 {
         color: #f4b42a;
+        font-weight: lighter;
     }
     .content .column button {
         background: #f4b42a;
@@ -84,15 +87,41 @@ header nav ul li a:hover {
         background: #e09e24;
     }
     
-    .extra-content h2 {
+    .extra-content h3 {
         color: #f4b42a;
+        font-weight: lighter;
     }
     .extra-content img{
-        width:50% ;
+        width:45% ;
         margin: 0;
     }
-    /* .extra-content p{
+    .extra-content p{
         text-align: justify;
+        width: 45%;
+
+    }
+    .sidebar-main .container ul{
         list-style: none;
-    } */
+        margin:0;
+        padding: 0;
+    
+    }
+        .sidebar-main .categories ul li{
+            padding: 5px;
+        
+        }  
+        .sidebar-main .useful-links ul li{
+            padding: 5px;
+     
+        }  
+        .sidebar-main .container{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            margin-left: 50%;
+            padding: 20px;
+        position: relative;
+        
+        
             
+        }
